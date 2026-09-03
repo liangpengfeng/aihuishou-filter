@@ -238,3 +238,5 @@ if (typeof $response !== 'undefined') {
 } else if (typeof module !== 'undefined') {
   module.exports = { main, matches, md5, CONFIG };
   if (require.main === module) main().catch(console.error);
+
+}
